@@ -1,0 +1,202 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #242424;
+}
+
+
+
+.container{
+	height: 600px;
+	width: 100%;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns:repeat(12, 1fr);
+	grid-template-rows: repeat(20, 1fr);
+	grid-auto-rows: minmax(50px, auto);
+	outline: solid #fff;
+}
+
+.bg{
+	background-image: url(image/plage_noir.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+}
+.logo{
+	/*font-size: 30px;*/
+	grid-column: 1;
+	grid-row: 1/3;
+	color: black;
+
+}
+
+.about{
+	grid-column: 8;
+	grid-row: 2;
+	font-size: 25px;	
+
+	
+}
+.articles{
+	grid-column: 9;
+	grid-row: 2;
+	font-size: 25px;
+	}
+
+.subscribe{
+	grid-column: 11;
+	grid-row: 2;
+	font-size: 25px;
+
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: #61e1e7;
+
+}
+
+.title{
+	text-align: left;
+	grid-column: 2/5;
+	grid-row: 12/18;
+}
+h1{
+	font-size: 50px;
+	color: #fff;
+	
+}
+h2{
+	font-size: 30px;
+	font-family: Castellar;
+	color: #fff;
+}
+h5{
+	color: #748F82;
+	font-family: Alef;
+}
+.p2{
+	font-size: 20px;
+	color: #748F82;
+}
+.e{
+	font-size: 20px;
+	color: #61e1e7;
+
+}
+
+
+.slow1{
+
+	grid-column: 4/10;
+	grid-row: 5 / 16 ;
+	text-align: center;
+	color: #fff;
+}
+
+.slow2{
+	text-align: justify-all;
+	line-height: 1.5em;
+	letter-spacing: 2px;
+
+}
+.hr1{
+	height: 2px;
+	text-align: left;
+	width: 40px;
+	background: #fff;
+	margin:15px 0px;
+	border-top: 10px;
+}
+
+.hr2{
+	height: 2px;
+	width: 40px;
+	background: #fff;
+	margin:10px auto;
+}
+
+
+.suite{
+	grid-column: 4/9;
+	grid-row: 1 / 5 ;
+	text-align: center;
+	color: #fff;
+
+}
+
+.imgtun{
+	grid-column: 3/auto;
+	grid-row: 5/10;
+}
+.imgtim{
+
+	grid-column: 6/auto;
+	grid-row: 5/10;
+}
+.imglomb{
+	grid-column: 10/auto;
+	grid-row: 5/10;
+}
+
+.tunza{
+	grid-column: 3;
+	grid-row: 16;
+	color: #fff;
+	text-align: center;
+}
+.timor{
+	grid-column: 6;
+	grid-row: 16;
+	color: #fff;
+	text-align: center;
+}
+.lombox{
+	grid-column: 10;
+	grid-row: 16;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+.container2{
+	height: 600px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	outline: solid #fff;
+	color: #fff;
+}
+
+.souscrire{
+	padding: 80px;
+	border: solid #fff;
+}
+
+.sous{
+	border: solid #fff;
+	font-size: 60px;
+}
+.sign{
+	border: solid #fff;
+	margin: 5px;	
+	letter-spacing: 2px;
+}
+
+input {
+	padding: 2em;
+	margin: 2em;
+	si
+}
